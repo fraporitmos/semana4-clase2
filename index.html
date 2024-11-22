@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a class="logo" href="#">
+              <img class="logoImg" src="assets/logo.png" alt="Logo" />
+              <h3>Admin</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-house"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-store"></i>
+              <span>Productos</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-chart-simple"></i>
+              <span>Ventas</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-envelope"></i>
+
+              <span>Messages</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Reclamos</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <span>Cerrar Sesión</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section>
+            <div class="mainTop">
+                <input type="text" placeholder="Search">
+                <img src="assets/avatar.png" alt="Profile">
+            </div>
+
+            <div class="salesTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Cliente</th>
+                            <th>Correo</th>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                            <th>Fecha</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>323213</td>
+                            <td>Fran Espino</td>
+                            <td>fraporitmos@gmail.com</td>
+                            <td>Pantalla Oled 60 pulgadas</td>
+                            <td>1</td>
+                            <td>2000</td>
+                            <td>21/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>542312</td>
+                            <td>María López</td>
+                            <td>maria.lopez@example.com</td>
+                            <td>Laptop HP Envy</td>
+                            <td>2</td>
+                            <td>3000</td>
+                            <td>20/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>874123</td>
+                            <td>Carlos Rivera</td>
+                            <td>carlos.rivera@example.com</td>
+                            <td>iPhone 14 Pro</td>
+                            <td>1</td>
+                            <td>1200</td>
+                            <td>19/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>321984</td>
+                            <td>Lucía Fernández</td>
+                            <td>lucia.fernandez@example.com</td>
+                            <td>Smartwatch Samsung Galaxy</td>
+                            <td>3</td>
+                            <td>750</td>
+                            <td>18/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>562879</td>
+                            <td>Pedro Castillo</td>
+                            <td>pedro.castillo@example.com</td>
+                            <td>Tablet Lenovo 10”</td>
+                            <td>4</td>
+                            <td>1000</td>
+                            <td>17/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>323213</td>
+                            <td>Fran Espino</td>
+                            <td>fraporitmos@gmail.com</td>
+                            <td>Pantalla Oled 60 pulgadas</td>
+                            <td>1</td>
+                            <td>2000</td>
+                            <td>21/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>542312</td>
+                            <td>María López</td>
+                            <td>maria.lopez@example.com</td>
+                            <td>Laptop HP Envy</td>
+                            <td>2</td>
+                            <td>3000</td>
+                            <td>20/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>874123</td>
+                            <td>Carlos Rivera</td>
+                            <td>carlos.rivera@example.com</td>
+                            <td>iPhone 14 Pro</td>
+                            <td>1</td>
+                            <td>1200</td>
+                            <td>19/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>321984</td>
+                            <td>Lucía Fernández</td>
+                            <td>lucia.fernandez@example.com</td>
+                            <td>Smartwatch Samsung Galaxy</td>
+                            <td>3</td>
+                            <td>750</td>
+                            <td>18/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>562879</td>
+                            <td>Pedro Castillo</td>
+                            <td>pedro.castillo@example.com</td>
+                            <td>Tablet Lenovo 10”</td>
+                            <td>4</td>
+                            <td>1000</td>
+                            <td>17/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>323213</td>
+                            <td>Fran Espino</td>
+                            <td>fraporitmos@gmail.com</td>
+                            <td>Pantalla Oled 60 pulgadas</td>
+                            <td>1</td>
+                            <td>2000</td>
+                            <td>21/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>542312</td>
+                            <td>María López</td>
+                            <td>maria.lopez@example.com</td>
+                            <td>Laptop HP Envy</td>
+                            <td>2</td>
+                            <td>3000</td>
+                            <td>20/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>874123</td>
+                            <td>Carlos Rivera</td>
+                            <td>carlos.rivera@example.com</td>
+                            <td>iPhone 14 Pro</td>
+                            <td>1</td>
+                            <td>1200</td>
+                            <td>19/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>321984</td>
+                            <td>Lucía Fernández</td>
+                            <td>lucia.fernandez@example.com</td>
+                            <td>Smartwatch Samsung Galaxy</td>
+                            <td>3</td>
+                            <td>750</td>
+                            <td>18/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>562879</td>
+                            <td>Pedro Castillo</td>
+                            <td>pedro.castillo@example.com</td>
+                            <td>Tablet Lenovo 10”</td>
+                            <td>4</td>
+                            <td>1000</td>
+                            <td>17/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>323213</td>
+                            <td>Fran Espino</td>
+                            <td>fraporitmos@gmail.com</td>
+                            <td>Pantalla Oled 60 pulgadas</td>
+                            <td>1</td>
+                            <td>2000</td>
+                            <td>21/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>542312</td>
+                            <td>María López</td>
+                            <td>maria.lopez@example.com</td>
+                            <td>Laptop HP Envy</td>
+                            <td>2</td>
+                            <td>3000</td>
+                            <td>20/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>874123</td>
+                            <td>Carlos Rivera</td>
+                            <td>carlos.rivera@example.com</td>
+                            <td>iPhone 14 Pro</td>
+                            <td>1</td>
+                            <td>1200</td>
+                            <td>19/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>321984</td>
+                            <td>Lucía Fernández</td>
+                            <td>lucia.fernandez@example.com</td>
+                            <td>Smartwatch Samsung Galaxy</td>
+                            <td>3</td>
+                            <td>750</td>
+                            <td>18/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>562879</td>
+                            <td>Pedro Castillo</td>
+                            <td>pedro.castillo@example.com</td>
+                            <td>Tablet Lenovo 10”</td>
+                            <td>4</td>
+                            <td>1000</td>
+                            <td>17/11/2024</td>
+                            <td>
+                                <button class="btnEdit">Editar</button>
+                                <button class="btnDelete">Eliminar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+
+      </section>
+    </div>
+  </body>
+</html>

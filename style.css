@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F8F8F8;
+}
+
+.logoImg{
+    width: 45px;
+    height: 45px;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    height: 100vh;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+nav:hover{
+    width: 280px;
+    transition: 1s;
+}
+
+nav:hover span{
+    color: #717171;
+    transition: 0.5s;
+}
+
+nav:hover h3{
+    display: block;
+}
+
+a{
+    width: 280px;
+    font-size: 14px;
+    padding:16px;
+    position: relative;
+    display: table;
+    color: #F8F8F8;;
+}
+
+a:hover i{
+    color: #0B63F8;
+    transition: 0.2s;
+
+}
+
+a:hover span{
+    color: #0B63F8;
+    transition: 0.2s;
+}
+
+li:hover{
+    background-color: #0b62f83c;
+    border-radius: 14px;
+}
+
+i{
+    color: #717171;
+    font-size: 24px;
+    text-align: center;
+    width: 70px;
+}
+
+.logo{
+    width: 280px;
+    display: flex;
+    margin-left: 12px;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo>h3{
+    display: none;
+    transition: 1s;
+}
+
+.logo>h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0099EC;
+}
+
+section{
+    z-index: 20;
+    width: 100%;
+    padding-top: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 56px;
+}
+
+.mainTop{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mainTop>input{
+    width: 655px;
+    height: 46px;
+    padding-left: 14px;
+    padding-top: 2px;
+    border-radius: 3px;
+    border: 1px solid #2f2c2c
+}
+
+.mainTop>img{
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2em;
+    
+}
+
+th,td{
+    border: 1px solid #e5ebff;
+    text-align: center;
+}
+
+thead th{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+tbody td{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 4px;
+}
+
+.btnEdit{
+    background-color: #0B63F8 ;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btnDelete{
+    background-color: #f22e07 ;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
